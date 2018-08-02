@@ -1,6 +1,6 @@
 FROM nginx:alpine
 
-ENV NGINX_VER=1.15.1
+ENV NGINX_VER=1.14.0
 
 RUN apk add --update git make gcc musl-dev pcre-dev zlib-dev
 
