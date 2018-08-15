@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM alpine
 
 RUN apk add curl make gcc perl musl-dev pcre-dev openssl-dev
 
